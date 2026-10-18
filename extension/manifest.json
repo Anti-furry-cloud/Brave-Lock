@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Brave Lock",
+  "version": "1.1.1",
+  "description": "Adds .lock to completed downloads using a local Windows helper.",
+  "permissions": [
+    "downloads",
+    "nativeMessaging"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Brave Lock",
+    "default_popup": "popup.html"
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv/WhoJIXiuo3riNNWzY200lC8DcPXMTGskkkThdQi+5QHCGR5VwfyqwimbwPTPmdZkea5pdTyfdF/eiZ1JYyPRWT7UC2tcSarRKm6GypyE+lg+h2mWIXT1szC3SGLPzgSWjN15Pndv9icBTJL+rK9BpqZs0u32IYZ5XT3OWlS/5Qd30PRpWls79jjsl0qotSu78iJC9RFsWwa/ifHIck+KUWea/zPIi0lyiX5kdjNzfEqYcqNZlt+s8DbNqZfft7djLLDLnxJ7Mj9NiuGXDYnWYPP0FkuTjCLJZ+Hqsn7a1CTCWjg28q3PV8CQb0Q77aw4cg9dDB3+fRT+sXyMTwBwIDAQAB",
+  "author": "Anti-furry-cloud"
+}

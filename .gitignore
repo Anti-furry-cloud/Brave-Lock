@@ -1,0 +1,8 @@
+# Built helper is included in release ZIPs, not source commits.
+native/BraveLockHost.exe
+native/local.brave_lock.json
+*.zip
+*.log
+.DS_Store
+Thumbs.db
+node_modules/

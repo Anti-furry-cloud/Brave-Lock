@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brave Lock</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <h1>Brave Lock</h1>
+    <span class="version">1.1.1</span>
+  </header>
+  <main>
+    <p id="status" role="status" aria-live="polite">Checking helper…</p>
+    <p id="failure" hidden></p>
+    <p class="summary">Adds <code>.lock</code> after a download finishes.</p>
+    <dl class="example">
+      <div><dt>Downloaded</dt><dd>archive.zip</dd></div>
+      <div><dt>Renamed</dt><dd>archive.zip.lock</dd></div>
+    </dl>
+    <p>To open the file, remove the final <code>.lock</code> in File Explorer.</p>
+    <p class="note">Renaming does not encrypt the file. Brave’s download list may still show its old name.</p>
+  </main>
+  <footer>Developed by <a href="https://github.com/Anti-furry-cloud" target="_blank" rel="noopener noreferrer">Anti-furry-cloud</a></footer>
+  <script src="popup.js"></script>
+</body>
+</html>
